@@ -63,3 +63,16 @@ body {
   outline: none;
   border: none;
 }
+
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}
+
+.inactive-link {
+  text-decoration: none;
+}
+
+.inactive-link:visited {
+  color: #000000;
+}
